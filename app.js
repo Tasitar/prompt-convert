@@ -29,9 +29,8 @@ do {
             break
 
         default:
-            alert("ERROR!")
+            alert("¡ERROR!😡")
     }
     
-    console.log (history)
-
 } while (numMenu !=2)
+    console.log (history)
