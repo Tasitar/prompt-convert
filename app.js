@@ -8,7 +8,7 @@ function convertCurrency(pesos){
     return pesos/1300 
 }
 
-
+do {
     numMenu= Number(prompt("1) Divisa (ARS -> USD) 2) salir"))
 
     switch (numMenu) {
@@ -29,8 +29,9 @@ function convertCurrency(pesos){
             break
 
         default:
-            alert("opcion invalida")
+            alert("ERROR!")
     }
-    |
+    
     console.log (history)
 
+} while (numMenu !=2)
